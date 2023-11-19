@@ -1,0 +1,8 @@
+# Produit de matrice 
+def matricenulle(n,p):
+  s = []
+  for i in range(n):
+    s.append([])
+    for j in range(p):
+      s[i].append(0)
+  return s
